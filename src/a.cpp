@@ -14,9 +14,5 @@
 
 #include "a.h"
 
-namespace ns {
-	template<int n, int m>
-	A<n,m>::A(int o): o(o) {}
-}
-
+// Nothing :-)
 

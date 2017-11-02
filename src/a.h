@@ -17,7 +17,7 @@ namespace ns {
 	template<int n, int m>
 	class A {
 	public:
-		A(int o);
+		A(int o): o(o) {}
 
 		int o;
 		static constexpr int N = n;
